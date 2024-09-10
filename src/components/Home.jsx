@@ -92,7 +92,7 @@ console.log(id);
                     <div className="Headline text-yellow-300 font-bold lg:text-3xl mt-6 text-2xl">Problem Statement Generator</div>
                     <div className="tagline text-white lg:text-lg text-md mt-2 ">"The Problem Lab: Generate Statements, Ignite Solutions"</div>
                     <div className="inputFields lg:h-[100px] h-[200px] flex-wrap overflow-hidden w-[90vw] mt-10 flex">
-                        <div className="inputs h-[auto] max-w-[50vw] lg:w-[auto] duration-500">
+                        <div className="inputs h-10 max-w-[50vw] lg:w-[auto] duration-500">
                             <input value={title}
                             onChange={(e) => {
                                 settitle(e.target.value)
